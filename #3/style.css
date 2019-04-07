@@ -1,0 +1,94 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #F2F2F2;
+}
+
+.container
+{
+	display: flex;
+	position: relative;
+	width: 1000px;
+	
+	height: 100%
+}
+.container .box
+{
+	background: #fff;
+	margin: 20px;
+	width: 270px;
+	height: 500px;
+	border-radius: 25px;
+}
+
+.container .box .box-image
+{
+	width: 150px;
+	height: 150px;
+	margin: 30px auto;
+}
+
+.container .box .box-image img
+{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	background-size: cover;
+	background-position: center;
+}
+
+.box-caption-r,
+.box-caption-s,
+.box-caption-a
+{
+	text-align: center;
+	padding: 10px;
+}
+
+.box-caption-r h1, 
+.box-caption-s h1, 
+.box-caption-a h1
+{
+	font-weight: 600;
+	font-size: 25px;
+	letter-spacing: 0.2em;
+}
+.box-caption-r h1{ color: #8BAED5;}
+.box-caption-s h1{ color: #FA4C4E; }
+.box-caption-a h1{ color: #04b3a7; }
+
+.box-caption-r p, 
+.box-caption-s p, 
+.box-caption-a p
+{
+	font-weight: bold;
+	font-size: 16px;
+	padding: 20px;
+}
+
+.box-caption-r span
+{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 10px;
+}
+
+.box-caption-r span:nth-child
+{
+	background-color: #ddd;
+}
+.box-caption-r span:nth-child(2)
+{
+	background-color: #000;
+}
+.box-caption-r span:nth-child(3)
+{
+	background-color: #f00;
+}
