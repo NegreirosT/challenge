@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #3498db;
+}
+.mobile
+{
+    margin: 0 auto;
+    width: 375px;
+    height: 667px;
+    background: url(black-and-white-blank-blur-925744.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.menu-mobile
+{
+    color: #fff;
+    margin-left: 10px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 2em;
+}
+.menu-mobile:hover
+{
+    color: #3498db;
+    font-size: 3em;
+    transition: 0.5s;
+}
+.title-mobile
+{
+    margin-top: 100px;
+    color:#FEFDFD;
+    text-transform: uppercase;
+    margin-left: 100px;
+}
+.title-mobile h1
+{   
+    font-weight: 100;
+    letter-spacing: 0.8em;
+}
+.form-mobile
+{
+    margin-top: 50px;
+    max-width: 100%;
+    position: relative;
+}
+.form-mobile input
+{
+    margin: 10px 0 20px 30px;
+    padding: 10px;
+    width: 300px;
+    background: transparent;
+    border-color: transparent;
+    border-bottom: 2px solid #3498db;
+}
+::placeholder {
+    color: #fff;
+    padding-left: 100px;
+    font-size: 18px;
+    opacity: 0.5;
+}
+
+.form-mobile  a
+{
+    position: absolute;
+    top: 200px;
+    left: 150px;
+}
+.form-mobile .btn-mobile
+{
+    font-size: 25px;
+    font-weight: 100;
+    color: #fff;
+    background:  #3498db;
+    padding: 30px;
+    border-radius: 50%;
+}
+.form-mobile .btn-mobile:hover
+{
+    background: transparent;
+    color:  #3498db;
+    border: 1px solid #fff;
+    font-size: 30px;
+    transition: 0.5s;
+}
+.footer-mobile
+{
+    margin-top: 150px;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+}
+.footer-mobile a
+{
+    text-decoration: none;
+    color:#fff;
+    display: block;
+    padding: 10px;
+}
+
+.footer-mobile a:hover
+{
+    transition: 0.5s;
+    font-size: 25px;
+    color: #3498db;
+}
